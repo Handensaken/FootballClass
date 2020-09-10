@@ -16,7 +16,7 @@ namespace Klasser
                 players[i] = new Player(names[i]);                
             }
 
-            System.Console.WriteLine($"Instantiated ball at {ball.GetPos()}");
+            System.Console.WriteLine($"Instantiated ball at {ball.GetPos()[0]} , {ball.GetPos()[1]}");
 
             System.Console.Write("Instantiated 10 players with names: ");
             for (int i = 0; i < names.Length-2; i++)
